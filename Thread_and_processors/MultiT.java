@@ -14,13 +14,13 @@ class Processor2 implements Runnable {
     }
 }
 
-public class MultiT{
-    public static void main(String []args){
+public class MultiT {
+    public static void main(String[] args) {
         Processor1 p1 = new Processor1();
         Processor2 p2 = new Processor2();
 
 
-        // Creating threads from runable class
+        // Creating threads from Runnable class
         Thread t1 = new Thread(p1);
         Thread t2 = new Thread(p2);
         t1.start();
