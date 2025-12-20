@@ -11,7 +11,7 @@ class Account {
     }
 
     // sufficient balance
-    boolean isSufficient(int w) {
+    boolean isSufficient(int w)     {
         if (bal >= w) {
             return true;
         } else {
