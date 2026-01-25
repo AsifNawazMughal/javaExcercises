@@ -58,9 +58,11 @@ public class Login1  extends JFrame{
         add(l4);
 
         b1.addActionListener(new log());
-        b1.setBackground(Color.RED);
+        b1.setBackground(Color.GREEN);
         b1.setForeground(Color.WHITE);
         b2.addActionListener(new clear());
+        b2.setBackground(Color.RED);
+        b2.setForeground(Color.WHITE);
         
     }
 

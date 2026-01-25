@@ -1,0 +1,14 @@
+File handling 
+    there are two types of file 
+        1. text file 
+        2. binary file ( image, video)
+---- 3 Logical Steps of F.H.
+    a. opening a file (take in ram)
+    b. processing 
+    c. Closing a file ( save)
+
+
+
+
+File f1 = new File("path"); only check info in it
+

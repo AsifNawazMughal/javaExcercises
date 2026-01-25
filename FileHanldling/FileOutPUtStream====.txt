@@ -1,0 +1,9 @@
+file output stream works in 4 ways
+
+object can be main in 4 ways 
+
+FileOutStream(File f1)
+FileOutStream(File f1, Boolean aapend)
+
+File.....(String path)
+File....(String path, Boolean)
